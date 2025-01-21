@@ -1,0 +1,97 @@
+.advanced-search-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advanced-search-form {
+  background-color: #f0f0f0;
+   padding: 20px;
+   border-radius: 8px;
+    width: 100%;
+   margin-bottom: 20px;
+}
+
+.advanced-search-title{
+    text-align: left;
+}
+.advanced-search-dropdowns{
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown-container{
+   display: flex;
+  flex-direction: column;
+    margin-bottom: 10px;
+}
+.dropdown-container label {
+    text-align: left;
+}
+.dropdown-container select {
+    padding: 8px;
+   border-radius: 4px;
+    margin-bottom: 10px;
+     border: 1px solid #ddd;
+    width: 180px;
+ }
+
+
+.tag-selector {
+   margin-bottom: 10px;
+}
+
+ .tag-selector label {
+  text-align: left;
+}
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+   margin-bottom: 10px;
+    gap: 5px;
+}
+.tag-button {
+    background-color: #f0f0f0;
+   padding: 5px 10px;
+     border: 1px solid #ddd;
+    border-radius: 4px;
+      cursor: pointer;
+}
+.tag-button.selected {
+     background-color: #5cb85c;
+      color: white;
+}
+.input-container {
+   display: flex;
+  flex-direction: column;
+     margin-bottom: 10px;
+}
+
+.input-container label {
+   text-align: left;
+ }
+
+ .input-container input{
+      padding: 8px;
+    border-radius: 4px;
+     border: 1px solid #ddd;
+    margin-bottom: 10px;
+   width: 180px;
+  
+}
+
+
+.search-button {
+     padding: 10px 20px;
+    background-color: #007bff;
+     color: white;
+    border: none;
+   border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .input-container-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px
+  }
